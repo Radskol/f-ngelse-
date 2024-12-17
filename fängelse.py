@@ -3,4 +3,13 @@ def steg_ett():
     print("1. ring till advokat")
     print("2. vänta ")
     choice= input("välja 1 eller 2: ")
-    
+    if choice == "1":
+        steg_två()
+    elif choice == "2":  
+        print("du har blivit avrättad") 
+    else:
+        print("game over idiot")
+        steg_ett()
+        
+
+         
