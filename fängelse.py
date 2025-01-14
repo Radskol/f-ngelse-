@@ -11,5 +11,10 @@ def steg_ett():
         print("game over idiot")
         steg_ett()
         
-
+def steg_två():
+    print("advokat tar dig ut från cellen ")
+    print("1 spötta på vakten")
+    print("2 döda vakten")
+    choice = input("välja 1 eller 2")
+    
          
