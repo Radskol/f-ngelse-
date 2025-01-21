@@ -16,5 +16,20 @@ def steg_två():
     print("1 spötta på vakten")
     print("2 döda vakten")
     choice = input("välja 1 eller 2")
-    
-         
+    if choice == "1":
+        print("vakten blir arg och dödar dig")
+    elif choice == "2": 
+        print ("vakten är död")
+        steg_tre()
+    else:
+        print("forsökt igen gör din sexig mamma stolt ")
+
+
+def steg_tre():
+    print("du är på gården och sista rummet")
+    print("1 öppna dörren och rymma från fängelse")
+    print("2 gå till damer fängelse")
+    choice == input("1 eller 2")
+    if choice 
+
+
